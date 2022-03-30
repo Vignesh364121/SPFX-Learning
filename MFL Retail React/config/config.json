@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mfl-retail-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mflRetailReact/MflRetailReactWebPart.js",
+          "manifest": "./src/webparts/mflRetailReact/MflRetailReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MflRetailReactWebPartStrings": "lib/webparts/mflRetailReact/loc/{locale}.js"
+  }
+}
